@@ -1,0 +1,94 @@
+        body {
+            background-color: rgb(86, 245, 152);
+            font-size: 30px;
+        }
+        
+        .container {
+            padding: 50px;
+            float: center;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+        }
+        
+        fieldset {
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            width: 900px;
+            background: #f1f5f8;
+            background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+            background-size: 25px 25px;
+            box-shadow: 20px 20px 20px;
+            border: solid 7px #ea95e0;
+        }
+        
+        img {
+            margin-top: -100px;
+            margin-left: -42rem;
+        }
+        
+        .form {
+            margin-top: -7rem;
+        }
+        
+        .form-input {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            width: 20rem;
+            margin: auto;
+            transform: translateY(20px);
+            justify-content: center;
+            text-align: center;
+            border: none;
+            border-bottom: dashed 3px #ea95e0;
+            background: transparent;
+            cursor: pointer;
+        }
+        
+        input:focus {
+            outline: none;
+            border: solid 3px #ea95e0;
+        }
+        
+        .form-label {
+            margin-bottom: 20px;
+        }
+        
+        .button {
+            padding: 5px;
+            transform: rotate(4deg);
+            box-shadow: 10px 10px 10px;
+            padding-bottom: 3px;
+            background-color: rgb(86, 245, 152);
+            font-size: 22px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            animation-name: spin;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+        }
+        
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .toDoList {
+            text-align: left;
+        }

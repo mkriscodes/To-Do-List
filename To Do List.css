@@ -1,4 +1,4 @@
-        body {
+      body {
             background-color: rgb(86, 245, 152);
             font-size: 30px;
         }
@@ -12,6 +12,7 @@
         
         h1 {
             text-align: center;
+            padding: 20px;
         }
         
         h3 {
@@ -31,13 +32,8 @@
             border: solid 7px #ea95e0;
         }
         
-        img {
-            margin-top: -100px;
-            margin-left: -42rem;
-        }
-        
         .form {
-            margin-top: -7rem;
+            margin-top: 40px;
         }
         
         .form-input {
@@ -53,6 +49,7 @@
             border-bottom: dashed 3px #ea95e0;
             background: transparent;
             cursor: pointer;
+            font-size: 22px;
         }
         
         input:focus {
